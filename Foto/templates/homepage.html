@@ -1,30 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="base.css">
-    <title>Fotografias</title>
-    <heard class="cabecalho">
-        <img class="logo" src="#" alt="logo fotografia">
-            <nav class="menu">
-                <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link" href="#">Inicio</a></li>
-                    <li class="menu__item"><a class="menu_-link" href="#">Sobre</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Projetos</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
-                </ul>
-            </nav>
-    </heard>
-</head>
+{% extends 'base.html' %}
 
-<body>
+{% block titulo %}
+HomePage Fotografia
+{% endblock %}
 
-</body>
-<footer class=" px-5 py-10 ">
-    <ul class="fles justify-between items-center">
-        <li>copy; 2022</li>
-        <li>Feito com Python (Django)</li>
-        <li>Cristiane Reis</li>
-    </ul>
-</footer>
-</html>
+
+
+{% block content %}
+<h1> Essa é a homepage do site</h1>
+{% endblock %}
