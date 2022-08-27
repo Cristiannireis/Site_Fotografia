@@ -1,2 +1,2 @@
-# Site_Fotografia
-Em desenvolvimento
+# Site_Fotografia 
+Site profissional de fotos em desenvolvimento
