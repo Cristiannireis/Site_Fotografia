@@ -71,6 +71,60 @@ footer {
 	margin: 20px 0 0;
 }
 
+/* mobile*/
+
+@media screen and (min-width: 0) {
+    .menu, .menu__lis {
+        justify-content: center;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu,.menu__lis {
+        padding: 0 5rem;
+        justify-content: space-between
+    }
+}
+@media screen and (min-width: 768px) {
+    .banner {
+        flex-direction: row;
+}
+
+@media screen and (min-width: 0) {
+    .banner__lateral {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .banner__lateral {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+    
+}
+ 
+}
+@media screen and (min-width: 0) {
+    .sobre {
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0 1rem;
+    }
+}
+
 
 
 
